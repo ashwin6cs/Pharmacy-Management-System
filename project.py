@@ -3,7 +3,7 @@ from tkinter import messagebox
 import os
 import mysql.connector
 
-db = mysql.connector.connect(host="localhost", user="root", passwd="ashwin6cs01!",db="srm")
+db = mysql.connector.connect(host="localhost", user="user_name", passwd="password",db="srm")
 mycursor = db.cursor()
 
 w = Tk()
